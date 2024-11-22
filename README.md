@@ -11,9 +11,9 @@ Feel free to create an issue or send me a pull request if you have any "how-to" 
 
 ## Install
 
-If `go mod` is enabled, install this package with `go get github.com/huandu/facebook/v2`. If not, call `go get -u github.com/huandu/facebook` to get the latest master branch version.
+If `go mod` is enabled, install this package with `go get github.com/ga-commerce/facebook/v2`. If not, call `go get -u github.com/huandu/facebook` to get the latest master branch version.
 
-Note that, since go1.14, [incompatible versions are omitted](https://golang.org/doc/go1.14#incompatible-versions) unless specified explicitly. Therefore, it's highly recommended to upgrade the import path to `github.com/huandu/facebook/v2` when possible to avoid any potential dependency error.
+Note that, since go1.14, [incompatible versions are omitted](https://golang.org/doc/go1.14#incompatible-versions) unless specified explicitly. Therefore, it's highly recommended to upgrade the import path to `github.com/ga-commerce/facebook/v2` when possible to avoid any potential dependency error.
 
 ## Usage
 
@@ -26,7 +26,7 @@ package main
 
 import (
     "fmt"
-    fb "github.com/huandu/facebook/v2"
+    fb "github.com/ga-commerce/facebook/v2"
 )
 
 func main() {
@@ -376,7 +376,7 @@ The `golang.org/x/oauth2` package can handle the Facebook OAuth2 authentication 
 import (
     "golang.org/x/oauth2"
     oauth2fb "golang.org/x/oauth2/facebook"
-    fb "github.com/huandu/facebook/v2"
+    fb "github.com/ga-commerce/facebook/v2"
 )
 
 // Get Facebook access token.

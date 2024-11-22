@@ -24,7 +24,7 @@ Note that the tag `v2.5.4` was tagged on a wrong branch. I deleted it to avoid p
 
 ## v2.5.2
 
-- `[FIX]` Update `go.mod` import path from `github.com/huandu/facebook` to `github.com/huandu/facebook/v2`. Since go1.14, incompatible versions are omitted by default.
+- `[FIX]` Update `go.mod` import path from `github.com/huandu/facebook` to `github.com/ga-commerce/facebook/v2`. Since go1.14, incompatible versions are omitted by default.
 
 ## v2.5.1
 
